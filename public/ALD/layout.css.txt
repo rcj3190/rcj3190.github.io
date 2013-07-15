@@ -1,0 +1,545 @@
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #333333;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+p, ul, li
+{
+	line-height: 1.6em;
+	margin: .6em 0 0 0;
+}
+
+/*
+@Heading styles
+----------------------------------------------------*/
+
+h1, h2, h3, h4
+{
+	color: #313131;
+	font-weight: normal;
+	line-height: 1.8em;
+	margin: .6em 0 0 0;
+}
+
+h2
+{
+	font-size: 1.4em;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h4
+{
+	font-size: 1em;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+}
+
+#heading-rss
+{
+	padding-left: 28px;
+	font-size: 1.3em;
+	background: transparent url(images/bg_heading-rss.jpg) no-repeat left center;
+}
+
+#content-2-2 h2, #content-2-3 h2
+{
+	text-align: center;
+}
+
+/*
+@Rounded heading styles
+----------------------------------------------------*/
+
+#content-1-left .rounded-heading
+{
+	font-size: 16px;
+	line-height: normal;
+	color: #FFFFFF;
+	margin-right: 10px;
+	background: #555555 url(images/bg_roundedheading11T.jpg) no-repeat right top;
+}
+
+#content-1-left .rounded-heading span
+{
+	padding: 9px 20px 9px 10px;
+	display: block;
+	background: transparent url(images/bg_roundedheading11B.jpg) no-repeat right bottom;
+}
+
+#content-2-1 .rounded-heading
+{
+	font-size: 16px;
+	line-height: normal;
+	color: #FFFFFF;
+	margin-right: 10px;
+	background: #555555 url(images/bg_roundedheading21T.jpg) no-repeat right top;
+}
+
+#content-2-1 .rounded-heading span
+{
+	padding: 9px 20px 9px 10px;
+	display: block;
+	background: transparent url(images/bg_roundedheading21B.jpg) no-repeat right bottom;
+}
+
+#content-1-right .rounded-heading
+{
+	background: #EEEEEE url(images/bg_roundedheading12T.jpg) no-repeat left top;
+	font-size: 16px;
+	line-height: normal;
+	color: #666666;
+}
+
+#content-1-right .rounded-heading span
+{
+	padding: 9px 10px;
+	display: block;
+	background: transparent url(images/bg_roundedheading12B.jpg) no-repeat left bottom;
+}
+
+/*
+@Link styles
+----------------------------------------------------*/
+
+a:link, a:visited
+{
+	color: #272d20;
+}
+
+a:hover, a:active
+{
+	color: #000000;
+}
+
+a img
+{
+	border: none;
+}
+
+/*
+@Image Navigation styles
+----------------------------------------------------*/
+
+img.float-left
+{
+	float: left;
+	margin: 0 6px 6px 0;
+}
+
+/*
+@Wrapper styles
+----------------------------------------------------*/
+
+#wrapper-1
+{
+	width: 780px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#wrapper-content-1
+{
+	margin: 0;
+	padding: 0;
+	font-size: .65em;
+	background-color: #DDD;
+	border-top: 1px solid #FFFFFF;
+	clear: both;
+}
+
+#wrapper-content-2
+{
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(images/bg_wrapper-content-2.jpg) repeat-y;
+}
+
+
+#content-1-right .content-padder
+{
+	padding: 0 10px 0 0;
+}
+
+#content-1-left .content-padder
+{
+	padding: 0 0 0 10px;
+}
+
+#content-2-1 .content-padder
+{
+	padding: 0 5px 0 10px;
+	margin: 1.6;
+}
+
+#content-2-3 .content-padder
+{
+	padding: 0 10px 0 2px;
+}
+
+#content-2-2 .content-padder
+{
+	padding: 0 2px 0 10px;
+}
+
+/*
+@Main Navigation styles
+----------------------------------------------------*/
+
+#hornav
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #9b9b9b url(images/bg_hornav.jpg) repeat-x;
+	font-size: .75em;
+}
+
+#hornav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 1px;
+}
+
+#hornav ul li
+{
+	float: left;
+	line-height: normal;
+	margin: 0;
+}
+
+#hornav ul li a
+{
+	float: left;
+	display: block;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: transparent url(images/bg_horNav-link.jpg) top right no-repeat;
+}
+
+#hornav ul li a:hover, #hornav ul li a:active
+{
+	background: #666 url(images/bg_horNav-link.jpg) top right no-repeat;
+}
+
+#hornav ul li a#current
+{
+	background: #9b9b9b url(images/bg_horNav-link.jpg) repeat-x !important;
+	color: #333333 !important;
+	font-weight: bold;
+}
+
+/*
+@Verical Navigation styles
+----------------------------------------------------*/
+
+.vertnav
+{
+	margin: .6em 0 0 0;
+	padding: 0;
+}
+
+.vertnav ul
+{
+	margin: 0;
+	list-style-type: none;
+	line-height: normal;
+	padding: 0;
+	border-top: 1px solid #FFFFFF;
+}
+
+.vertnav ul li
+{
+	line-height: normal;
+	margin: 0;
+}
+
+.vertnav a
+{
+	display: block;
+	padding: 3px 6px;
+	width: 139px;
+	margin: 0;
+	background-color: #C4C4C4;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+}
+
+.vertnav a:link, .vertnav a:visited
+{
+	color: #666666;
+	text-decoration: none;
+}
+
+.vertnav a:hover
+{
+	background-color: #D1E2EC;
+	color: #333333;
+}
+
+/*
+@Section tops and bottoms styles
+----------------------------------------------------*/
+
+#page-top
+{
+	margin: 0;
+	padding: 0;
+	height: 6px;
+	background: #555555 url(images/bg_page-top.jpg) no-repeat;
+}
+
+#content-1-bottom
+{
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 22px;
+	font-size: 0;
+	background: #DDDDDD url(images/bg_content-1-bottom.jpg) no-repeat;
+}
+
+#content-2-bottom
+{
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 22px;
+	font-size: 0;
+	background: #DDDDDD url(images/bg_content-2-bottom.jpg) no-repeat;
+}
+
+#page-bottom
+{
+	margin: 0;
+	padding: 0;
+	height: 6px;
+	font-size: 0;
+	background: #DDDDDD url(images/bg_page-bottom.jpg) no-repeat;
+}
+
+/*
+@Masthead styles
+----------------------------------------------------*/
+
+#branding
+{
+	margin: 0;
+	padding: 0;
+	background-color: #555555;
+}
+
+#branding h1
+{
+	color: #FFFFFF;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	font-weight: normal;
+	padding: 40px 20px 40px 98px;
+	background: transparent url(images/bg_branding.jpg) no-repeat left center;
+	line-height: normal;
+	margin: 0;
+	border-bottom: 1px solid #999999;
+}
+
+/*
+@Column styles
+----------------------------------------------------*/
+
+#content-1-left
+{
+	float: left;
+	width: 420px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+#content-1-right
+{
+	float: left;
+	width: 345px;
+	margin: 0;
+	padding: 0;
+}
+
+#content-2-1
+{
+	float: left;
+	width: 420px;
+	font-size: .8em;
+}
+
+#content-2-2
+{
+	float: left;
+	width: 165px;
+	margin: 0 15px;
+	font-size: .7em;
+}
+
+#content-2-3
+{
+	float: left;
+	width: 165px;
+	font-size: .7em;
+}
+
+/*
+@Footer styles
+----------------------------------------------------*/
+
+#footer
+{
+	margin: 0;
+	padding: 0;
+	background: #DDDDDD;
+}
+
+#footer p
+{
+	margin: 0;
+	padding: 0 10px;
+	background: #DDDDDD;
+	line-height: normal;
+	font-size: .7em;
+}
+
+/*
+@Thumnail list styles
+----------------------------------------------------*/
+
+#thumblist
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#thumblist li
+{
+	margin: 4px 0 0 0;
+}
+
+#thumblist li img
+{
+	width: 100px;
+	border: 3px double #FFFFFF;
+	background-color: #c4c4c4;
+	padding: 15px;
+}
+
+/*
+@Search form styles
+----------------------------------------------------*/
+
+#searchcontainer
+{
+	line-height: normal;
+	background: #EEEEEE url(images/bg_roundedheading12T.jpg) no-repeat left top;
+	margin: .6em 0 0 0;
+}
+
+#searchcontainer div
+{
+	padding: 8px 10px;
+	background: transparent url(images/bg_roundedheading12B.jpg) no-repeat left bottom;
+}
+
+#searchcontainer p
+{
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+#searchcontainer form
+{
+	margin: 0;
+	padding: 0 0 0 90px;
+	line-height: normal;
+	background: transparent url(images/bg_searchform.jpg) no-repeat left center;
+}
+
+#searchcontainer form label {
+	display: none;
+}
+
+#keywords, #btn-search
+{
+	vertical-align: middle;
+}
+
+#keywords
+{
+	border: 1px solid #FFFFFF;
+	background: #DDDDDD;
+	width: 120px;
+	margin: 0;
+	padding: 2px;
+	font-size: 11px;
+}
+
+/*
+@Floated note styles
+----------------------------------------------------*/
+
+p.sidenote
+{
+	width: 120px;
+	float: inherit;
+	background-color: #bdd5ef;
+	padding: 1em;
+	margin: .8em .6em 0 0;
+	border: 1px solid #f4f4f4;
+}
+
+/*
+@RSS list styles
+----------------------------------------------------*/
+
+#list-rss
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#list-rss li
+{
+	padding: 0 0 0 14px;
+	background: transparent url(images/icn_download.jpg) no-repeat left center;
+	line-height: normal;
+	margin: 4px 0 0 0;
+}
+
+#list-rss li a
+{
+	padding: 3px 10px;
+	display: block;
+	border: 1px solid #FFFFFF;
+	text-decoration: none;
+	background-color: #d1e2ec;
+	text-transform: uppercase;
+}
+
+#list-rss li a:hover, #list-rss li a:active
+{
+	background-color: #EEEEEE;
+	color: #000000;
+}

@@ -4,7 +4,7 @@ document.write('<div id="nav">')
 document.write('<div id="nav-left">')
 document.write('<div id="nav-right">')
 document.write(' </div> </div> </div>')
-document.write('<a class="menuitem" href="Index.html">Home</a>')
+document.write('<a class="menuitem" href="/">Home</a>')
 document.write('<a class="menuitem submenuheader" href="">About Rotaract</a>')
 document.write('<div class="submenu">')
 document.write('<ul>')
@@ -64,17 +64,17 @@ document.write('<div id="nav-right-bottom">')
 document.write(' </div> </div> </div>')
 document.write(' </div>')
 document.write('</div>')
-/* HTML FOR THE ABOVE SCRIPT  
+/* HTML FOR THE ABOVE SCRIPT
 <DIV id="containerarea">
 <SCRIPT LANGUAGE="JavaScript1.2" SRC="textfader.js"></SCRIPT>
-</DIV>   
+</DIV>
          <div id="leftcolumn">
         <div class="glossymenu">
             <div id="nav">
 		  <div id="nav-left">
-		    <div id="nav-right">    			
+		    <div id="nav-right">
 		    </div>
-		  </div>			
+		  </div>
 		</div>
             <a class="menuitem" href="http://www.dynamicdrive.com/">Home</a>
             <a class="menuitem submenuheader" href="http://www.dynamicdrive.com/style/">About Rotaract</a>
@@ -84,13 +84,13 @@ document.write('</div>')
                     <li><a href="">History</a></li>
                     <li><a href="">Mission</a></li>
                     <li><a href="">Rotary</a></li>
-                    <li><a href="">Dist 3190</a></li>                    
+                    <li><a href="">Dist 3190</a></li>
                     </ul>
-            </div>            
-            <a class="menuitem submenuheader" href="http://www.cssdrive.com">RC Jayanagar</a>            
+            </div>
+            <a class="menuitem submenuheader" href="http://www.cssdrive.com">RC Jayanagar</a>
             <div class="submenu">
                     <ul>
-                    
+
                     <li><a href="http://www.cssdrive.com/index.php/menudesigns/">Info $ History</a></li>
                     <li><a href="http://www.cssdrive.com/index.php/news/">Vision</a></li>
                     <li><a href="http://www.cssdrive.com/index.php/examples/">Theme</a></li>
@@ -98,39 +98,39 @@ document.write('</div>')
                     <li><a href="http://www.dynamicdrive.com/forums/forumdisplay.php?f=6">Achievements</a></li>
                     <li><a href="http://www.cssdrive.com/index.php/main/csscompressor/">Acknowledgements</a></li>
                     <li><a href="http://www.dynamicdrive.com/forums/forumdisplay.php?f=6">Legal</a></li>
-                    </ul>                
+                    </ul>
             </div>
-            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Join The Club</a>            
+            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Join The Club</a>
             <div class="submenu">
                     <ul>
                     <li><a href="http://www.cssdrive.com">Membership Details</a></li>
                     <li><a href="http://www.cssdrive.com/index.php/menudesigns/">Apply here</a></li>
-                    <li><a href="http://www.cssdrive.com/index.php/news/">FAQs</a></li>                    
-                    </ul>                
+                    <li><a href="http://www.cssdrive.com/index.php/news/">FAQs</a></li>
+                    </ul>
             </div>
-            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Club Details</a>            
+            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Club Details</a>
             <div class="submenu">
-                    <ul>                    
+                    <ul>
                     <li><a href="http://www.cssdrive.com/index.php/menudesigns/">Projects</a></li>
-                    <li><a href="http://www.cssdrive.com/index.php/news/">Photo Gallery</a></li>                    
-                    </ul>                
+                    <li><a href="http://www.cssdrive.com/index.php/news/">Photo Gallery</a></li>
+                    </ul>
             </div>
-            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Interactive</a>            
+            <a class="menuitem submenuheader" href="http://www.cssdrive.com">Interactive</a>
             <div class="submenu">
                     <ul>
                     <li><a href="http://www.cssdrive.com">Calender</a></li>
                     <li><a href="http://www.cssdrive.com/index.php/menudesigns/">Guest Book</a></li>
-                    <li><a href="http://www.cssdrive.com/index.php/news/">Web Links</a></li>                    
-                    </ul>                
+                    <li><a href="http://www.cssdrive.com/index.php/news/">Web Links</a></li>
+                    </ul>
             </div>
               <a class="menuitem" href="http://www.dynamicdrive.com/">Contact Us</a>
             <div id="nav">
 		  <div id="nav-left-bottom">
-		    <div id="nav-right-bottom">    			
+		    <div id="nav-right-bottom">
 		    </div>
-		  </div>			
+		  </div>
 		</div>
         </div>
 
-    </DIV>   
+    </DIV>
               */

@@ -8,10 +8,13 @@
 
 <link rel="stylesheet" type="text/css" href="CSS/RtrMainCSS.css">
 <link rel="stylesheet" type="text/css" href="CSS/niftyCorners.css">
+<link rel="stylesheet" type="text/css" href="CSS/nivo-slider.css">
+
 <script type="text/javascript" src="JS/nifty.js"></script>
 <script type="text/javascript" src="JS/RtrRounded.js"></script>
 <script type="text/javascript" src="JS/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="JS/ddaccordion.js"></script>
+<script type="text/javascript" src="JS/jquery.nivo.slider.pack.js"></script>
 <!-- <script type="text/javascript" src="JS/snow.js"></script> -->
 <link rel="shortcut icon" href="images/favicon.ico" >
 <style type="text/css">
@@ -55,6 +58,16 @@ ddaccordion.init({
 
 <script type="text/javascript" src="JS/RtrHeader.js"></script>
 <br>
+      <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+            <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+            <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+            <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+            <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+          </div>
+        </div>
+      </div>
 <div id="container">  
   <!--LEFT BANNER-->
   <script type="text/javascript" src="JS/RtrLeftLinks.js"></script>
@@ -123,5 +136,10 @@ ddaccordion.init({
   <script type="text/javascript" src="JS/RtrFooter.js"></script>
 
 </div>
+<script type="text/javascript">
+  $(document).load(function() {
+    $('#slider').nivoSlider();
+  });
+</script>
 </body>
 </html>

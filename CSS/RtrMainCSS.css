@@ -93,7 +93,7 @@ background-color: transparent; min-height: 700px; width: 640px; border-left: 1px
         float: right;
 }
 
-.MAINTEXTNORMAL
+.MAINTEXTNORMAL, p
 {
 	font-size: 14px;
 	color: black;
